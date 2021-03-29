@@ -1,0 +1,479 @@
+meta {
+  -theme-display-name: "Stuntrocket";
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: auto;
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+  background-color: #0e0e16;
+  border-color: #0e0e16;
+}
+
+meta.titlebar {
+  color: #c2b8ff;
+  border-color: #12121c;
+  background-color: #12121c;
+}
+
+meta.titlebar.inactive {
+  background-color: #12121c;
+}
+
+meta.button {
+  background: #0a0a10;
+  border: #12121c;
+  color: #ffffff;
+}
+
+meta.button.highlighted {
+  background: #0a0a10;
+  color: #ffffff;
+}
+
+meta.button.selected {
+  color: #ffffff;
+}
+
+meta.button.highlighted.selected {
+  color: #ffffff;
+}
+
+meta.textfield {
+  background-color: #0a0a10;
+  border-color: #12121c;
+}
+
+meta.textfield.highlighted {
+  background-color: #0e0e16;
+  border-color: #12121c;
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+  background-color: #0e0e16;
+  border-color: #0e0e16;
+}
+
+meta.document.button {
+  background: #0a0a10;
+  border: #12121c;
+}
+
+meta.document.button.disabled {
+  background: #0a0a10;
+}
+
+meta.document.button.highlighted {
+  background: #0a0a10;
+}
+
+meta.document.textfield {
+  background-color: #0a0a10;
+  border-color: #12121c;
+}
+
+meta.document.textfield.highlighted {
+  background-color: #0e0e16;
+  border-color: #12121c;
+}
+
+/* Text */
+meta.text {
+  color: #ba4aa9;
+}
+
+meta.text.invisible {
+  color: #d265c2;
+}
+
+meta.accent {
+  /* color: #fdd46b; */
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: #0a0a10;
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: rgba(21, 13, 48, 0.2);
+}
+
+/* Gutter */
+meta.gutter {
+  color: #605699;
+}
+
+meta.gutter.selected {
+  background-color: #0a0a10;
+  color: #776bbd;
+}
+
+/*
+ * Syntax styles
+ */
+keyword {
+  color: #776bbd;
+}
+
+comment {
+  color: #81657e;
+  font-style: italic;
+  font-weight: light;
+}
+
+processing {
+  color: #776bbd;
+}
+
+declaration {
+  /* color: hsl(210, 11%, 45%); */
+  color: #e6b400;
+}
+
+bracket {
+  color: #776bbd;
+  /* color: hsl(241, 42%, 66%); */
+}
+
+operator {
+  /* color: $accent; */
+  color: #ff7824;
+}
+
+invalid {
+  background-color: #ff0040;
+  color: #f8f8f1;
+}
+
+link {
+  color: #ff7824;
+}
+
+/* Values */
+value.boolean {
+  color: #e6b400;
+  font-style: italic;
+}
+
+value.null {
+  color: #81657e;
+  font-style: italic;
+}
+
+value.number {
+  color: #e6b400;
+}
+
+value.entity {
+  color: #ff7824;
+  /* color: $primary_color; */
+}
+
+value.symbol {
+  color: #e6b400;
+}
+
+/* Identifiers */
+identifier.type {
+  color: #e6b400;
+}
+
+identifier.global,
+identifier.variable {
+  /* color: hsl(345, 100%, 50%); */
+  color: #ff7824;
+}
+
+identifier.property,
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: #a899fa;
+}
+
+identifier.key {
+  color: #776bbd;
+}
+
+identifier.argument {
+  color: #e6b400;
+  /* color: $secondary_color; */
+}
+
+/* Strings */
+string {
+  color: #ff7824;
+}
+
+string.key {
+  color: #e6b400;
+}
+
+string-template {
+  color: #e6b400;
+}
+
+string-template.value {
+  color: #ff7824;
+}
+
+regex {
+  color: #ba4aa9;
+}
+
+regex.escaped {
+  color: #d265c2;
+}
+
+cdata {
+  color: #6fc1f1;
+}
+
+/* Markup */
+markup.heading {
+  color: #ffffff;
+}
+
+markup.line {
+  color: #e6b400;
+}
+
+markup.bold {
+  color: #ba4aa9;
+  font-weight: bold;
+}
+
+markup.italic {
+  color: #ff7824;
+  font-style: italic;
+}
+
+markup.strikethrough {
+  color: #ff7824;
+}
+
+markup.list.item {
+  color: #776bbd;
+}
+
+markup.code {
+  border-radius: 4px;
+  background-color: #0a0a10;
+  border-color: #12121c;
+}
+
+markup.link {
+  color: #e6b400;
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+  font-weight: bold;
+  color: #d265c2;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+  color: #ba4aa9;
+}
+
+/* Tags */
+tag {
+  color: #776bbd;
+}
+
+tag.framework {
+  color: #a899fa;
+}
+
+tag.attribute.name {
+  color: #c2b8ff;
+}
+
+tag.attribute.value {
+  color: #ff7824;
+}
+
+tag.attribute.value.link {
+  color: #e6b400;
+}
+
+/* /* */
+html.tag {
+  color: #4e4488;
+}
+
+html.tag.name {
+  color: #776bbd;
+}
+
+html.tag.attribute.name {
+  color: #c2b8ff;
+}
+
+/* Styles */
+style.at {
+  color: #ff7824;
+  font-weight: 900;
+}
+
+style.selector.element {
+  font-weight: 900;
+}
+
+style.selector.identifier.id {
+  color: #e6b400;
+}
+
+style.selector.identifier.class {
+  color: #e6b400;
+}
+
+style.selector.pseudoclass {
+  color: #776bbd;
+}
+
+style.selector.pseudoelement {
+  color: #776bbd;
+}
+
+style.attribute.name {
+  color: #c2b8ff;
+}
+
+style.value.number {
+  color: #ff7824;
+}
+
+style.value.color.hex {
+  color: #ff7824;
+}
+
+style.value.keyword {
+  color: #d265c2;
+}
+
+style.value.color.named {
+  color: #e6b400;
+}
+
+style.value.identifier.function {
+  color: #ff7824;
+}
+
+/* Terminal */
+terminal.black,
+terminal.bright-black {
+  color: #49536c;
+}
+
+terminal.red,
+terminal.bright-red {
+  color: #ff7824;
+}
+
+terminal.green,
+terminal.bright-green {
+  color: #30cfb4;
+}
+
+terminal.yellow,
+terminal.bright-yellow {
+  color: #e6b400;
+}
+
+terminal.blue,
+terminal.bright-blue {
+  color: #6fc1f1;
+}
+
+terminal.magenta,
+terminal.bright-magenta {
+  color: #ba4aa9;
+}
+
+terminal.cyan,
+terminal.bright-cyan {
+  color: #30b7d9;
+}
+
+terminal.white,
+terminal.bright-white {
+  color: #ffffff;
+}
+
+/* JavaScript */
+javascript.identifier.function {
+  color: #776bbd;
+  /* own functions */
+}
+
+javascript.identifier.core.function {
+  color: #776bbd;
+  /* core functions */
+}
+
+javascript.value.null {
+  color: #81657e;
+  font-style: italic;
+}
+
+/* PHP */
+php.identifier.function {
+  color: #d265c2;
+  /* #FDD46B own functions: not work */
+}
+
+php.identifier.core.function {
+  color: #ba4aa9;
+  /* #65C8F0 core functions */
+}
+
+php.value.null {
+  color: #81657e;
+  font-style: italic;
+}
+
+php.value.null {
+  color: #81657e;
+  font-style: italic;
+}
+
+php.value.boolean {
+  color: #ff7824;
+  font-style: italic;
+}
+
+php.global,
+php.variable {
+  /* color: hsl(345, 100%, 50%); */
+  color: #e6b400;
+}
+
+/* XML */
+/* xml.tag {
+color: #DA4551;
+}
+xml.tag.name {
+}
+xml.tag.attribute.name {
+color: #FDD46B;
+}
+xml.tag.attribute.value {
+  color: #d6f48f; 
+} */
