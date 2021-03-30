@@ -85,11 +85,15 @@ meta.document.textfield.highlighted {
 
 /* Text */
 meta.text {
-  color: #ba4aa9;
+  color: #a44696;
 }
 
 meta.text.invisible {
-  color: #d265c2;
+  color: #312630;
+}
+
+meta.text.selected {
+  background-color: #2b2a5a;
 }
 
 meta.accent {
@@ -103,12 +107,12 @@ meta.cursor {
 
 /* Indentation Guides */
 meta.indentguide {
-  border-color: rgba(21, 13, 48, 0.2);
+  border-color: rgba(61, 152, 255, 0.9);
 }
 
 /* Gutter */
 meta.gutter {
-  color: #605699;
+  color: #5d519e;
 }
 
 meta.gutter.selected {
@@ -135,17 +139,17 @@ processing {
 
 declaration {
   /* color: hsl(210, 11%, 45%); */
-  color: #e6b400;
+  color: #d3b545;
 }
 
 bracket {
-  color: #776bbd;
+  color: rgba(61, 152, 255, 0.9);
   /* color: hsl(241, 42%, 66%); */
 }
 
 operator {
   /* color: $accent; */
-  color: #ff7824;
+  color: #c2b8ff;
 }
 
 invalid {
@@ -154,12 +158,12 @@ invalid {
 }
 
 link {
-  color: #ff7824;
+  color: #db9366;
 }
 
 /* Values */
 value.boolean {
-  color: #e6b400;
+  color: #d3b545;
   font-style: italic;
 }
 
@@ -169,27 +173,27 @@ value.null {
 }
 
 value.number {
-  color: #e6b400;
+  color: #6facf1;
 }
 
 value.entity {
-  color: #ff7824;
+  color: #db9366;
   /* color: $primary_color; */
 }
 
 value.symbol {
-  color: #e6b400;
+  color: #d3b545;
 }
 
 /* Identifiers */
 identifier.type {
-  color: #e6b400;
+  color: #d3b545;
 }
 
 identifier.global,
 identifier.variable {
   /* color: hsl(345, 100%, 50%); */
-  color: #ff7824;
+  color: #db9366;
 }
 
 identifier.property,
@@ -204,37 +208,37 @@ identifier.key {
 }
 
 identifier.argument {
-  color: #e6b400;
+  color: #d3b545;
   /* color: $secondary_color; */
 }
 
 /* Strings */
 string {
-  color: #ff7824;
+  color: #db9366;
 }
 
 string.key {
-  color: #e6b400;
+  color: #d3b545;
 }
 
 string-template {
-  color: #e6b400;
+  color: #d3b545;
 }
 
 string-template.value {
-  color: #ff7824;
+  color: #db9366;
 }
 
 regex {
-  color: #ba4aa9;
+  color: #a44696;
 }
 
 regex.escaped {
-  color: #d265c2;
+  color: #bb72b0;
 }
 
 cdata {
-  color: #6fc1f1;
+  color: #6facf1;
 }
 
 /* Markup */
@@ -243,21 +247,21 @@ markup.heading {
 }
 
 markup.line {
-  color: #e6b400;
+  color: #d3b545;
 }
 
 markup.bold {
-  color: #ba4aa9;
+  color: #a44696;
   font-weight: bold;
 }
 
 markup.italic {
-  color: #ff7824;
+  color: #db9366;
   font-style: italic;
 }
 
 markup.strikethrough {
-  color: #ff7824;
+  color: #db9366;
 }
 
 markup.list.item {
@@ -271,7 +275,7 @@ markup.code {
 }
 
 markup.link {
-  color: #e6b400;
+  color: #d3b545;
 }
 
 /* Types */
@@ -282,14 +286,14 @@ definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
   font-weight: bold;
-  color: #d265c2;
+  color: #bb72b0;
 }
 
 /* Members */
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-  color: #ba4aa9;
+  color: #a44696;
 }
 
 /* Tags */
@@ -306,16 +310,16 @@ tag.attribute.name {
 }
 
 tag.attribute.value {
-  color: #ff7824;
+  color: #db9366;
 }
 
 tag.attribute.value.link {
-  color: #e6b400;
+  color: #d3b545;
 }
 
 /* /* */
 html.tag {
-  color: #4e4488;
+  color: #4f4294;
 }
 
 html.tag.name {
@@ -328,7 +332,7 @@ html.tag.attribute.name {
 
 /* Styles */
 style.at {
-  color: #ff7824;
+  color: #db9366;
   font-weight: 900;
 }
 
@@ -337,11 +341,11 @@ style.selector.element {
 }
 
 style.selector.identifier.id {
-  color: #e6b400;
+  color: #d3b545;
 }
 
 style.selector.identifier.class {
-  color: #e6b400;
+  color: #d3b545;
 }
 
 style.selector.pseudoclass {
@@ -357,23 +361,23 @@ style.attribute.name {
 }
 
 style.value.number {
-  color: #ff7824;
+  color: #db9366;
 }
 
 style.value.color.hex {
-  color: #ff7824;
+  color: #db9366;
 }
 
 style.value.keyword {
-  color: #d265c2;
+  color: #bb72b0;
 }
 
 style.value.color.named {
-  color: #e6b400;
+  color: #d3b545;
 }
 
 style.value.identifier.function {
-  color: #ff7824;
+  color: #db9366;
 }
 
 /* Terminal */
@@ -384,7 +388,7 @@ terminal.bright-black {
 
 terminal.red,
 terminal.bright-red {
-  color: #ff7824;
+  color: #db9366;
 }
 
 terminal.green,
@@ -394,17 +398,17 @@ terminal.bright-green {
 
 terminal.yellow,
 terminal.bright-yellow {
-  color: #e6b400;
+  color: #d3b545;
 }
 
 terminal.blue,
 terminal.bright-blue {
-  color: #6fc1f1;
+  color: #6facf1;
 }
 
 terminal.magenta,
 terminal.bright-magenta {
-  color: #ba4aa9;
+  color: #a44696;
 }
 
 terminal.cyan,
@@ -435,12 +439,12 @@ javascript.value.null {
 
 /* PHP */
 php.identifier.function {
-  color: #d265c2;
+  color: #bb72b0;
   /* #FDD46B own functions: not work */
 }
 
 php.identifier.core.function {
-  color: #ba4aa9;
+  color: #a44696;
   /* #65C8F0 core functions */
 }
 
@@ -455,14 +459,14 @@ php.value.null {
 }
 
 php.value.boolean {
-  color: #ff7824;
+  color: #db9366;
   font-style: italic;
 }
 
 php.global,
 php.variable {
   /* color: hsl(345, 100%, 50%); */
-  color: #e6b400;
+  color: #d3b545;
 }
 
 /* XML */
