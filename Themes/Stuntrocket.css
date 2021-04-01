@@ -317,7 +317,7 @@ tag.attribute.value.link {
   color: #d3b545;
 }
 
-/* /* */
+/* HTML */
 html.tag {
   color: #4f4294;
 }
@@ -328,6 +328,36 @@ html.tag.name {
 
 html.tag.attribute.name {
   color: #c2b8ff;
+}
+
+/* Vue */
+vue.html.tag.open,
+vue.html.tag.close {
+  color: #776bbd;
+}
+
+vue.html.tag.name {
+  color: #30cfb4;
+  font-weight: bold;
+}
+
+vue.html.tag.attribute.shorthand-key {
+  color: #bb72b0;
+}
+
+vue.html.tag.attribute.name,
+vue.html.embedded.interpolation.bracket {
+  color: #d3b545;
+  font-weight: bold;
+}
+
+vue.html.tag.attribute.argument {
+  color: #db9366;
+  font-weight: bold;
+}
+
+vue.html.tag.attribute.modifier {
+  color: #db9366;
 }
 
 /* Styles */
