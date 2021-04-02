@@ -1,3 +1,7 @@
+## Version 1.0.3
+
+Better Support for Javascript and AdvancedPHP files.
+
 ## Version 1.0.2
 
 Better Support for Vue files.

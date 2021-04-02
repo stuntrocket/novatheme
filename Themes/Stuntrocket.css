@@ -467,6 +467,97 @@ javascript.value.null {
   font-style: italic;
 }
 
+/* Keywords */
+javascript.keyword {
+  color: #9182e3;
+}
+
+javascript.keyword.class {
+  color: #c2b8ff;
+  font-style: italic;
+}
+
+javascript.keyword.extends {
+  color: #c2b8ff;
+}
+
+javascript.identifier.type.class.name,
+javascript.identifier.type.class.superclass {
+  color: #bb72b0;
+  font-weight: normal;
+}
+
+/* Identifiers */
+javascript.identifier.method,
+javascript.identifier.function,
+javascript.identifier.function.name {
+  color: #db9366;
+}
+
+javascript.identifier.argument.name {
+  color: #bb72b0;
+  font-style: italic;
+}
+
+javascript.identifier,
+javascript.identifier.name {
+  color: #bb72b0;
+}
+
+javascript.identifier.property {
+  color: #d3b545;
+}
+
+javascript.identifier.constant {
+  color: #c2b8ff;
+}
+
+javascript.identifier.core.global {
+  color: #d3b545;
+}
+
+javascript.identifier.core.function {
+  color: #db9366;
+  font-style: italic;
+}
+
+/* Values */
+javascript.value.null {
+  color: #81657e;
+}
+
+javascript.value.boolean {
+  color: #a899fa;
+}
+
+javascript.value.number.hex {
+  color: #a44696;
+}
+
+javascript.value.number {
+  color: #a44696;
+}
+
+/* Strings */
+javascript.string.backtick-quoted,
+javascript.string.double-quoted,
+javascript.string.single-quoted {
+  color: #db9366;
+}
+
+javascript.string.regex {
+  color: #d3b545;
+}
+
+/* Operators */
+javascript.operator,
+javascript.bracket,
+javascript.comma,
+javascript.semicolon,
+javascript.separator {
+  color: #c2b8ff;
+}
+
 /* PHP */
 php.identifier.function {
   color: #bb72b0;
@@ -495,19 +586,148 @@ php.value.boolean {
 
 php.global,
 php.variable {
-  /* color: hsl(345, 100%, 50%); */
   color: #d3b545;
 }
 
+/*********************
+* advanced PHP
+*********************/
+/* Statics */
+advphp.static.condition {
+  /* if, else, elseif, foreach, ... */
+  color: #a899fa;
+  font-style: italic;
+}
+
+advphp.static.processor {
+  /* echo, return, print, ... */
+  color: #9182e3;
+}
+
+advphp.static.declaration {
+  /* new, public, private, ... */
+  color: #776bbd;
+  font-style: italic;
+}
+
+advphp.static.import {
+  /* include, require, ... */
+  color: #9182e3;
+}
+
+advphp.static.constant {
+  /* __DIR__, __METHOD__, ... */
+  color: #9182e3;
+}
+
+advphp.static.wordOperator {
+  /* AND, OR, XOR, ... */
+  color: #a899fa;
+}
+
+/* WP Constants */
+advphp.wp.keywords {
+  color: #bb72b0;
+}
+
+/* CURL */
+advphp.curl.keywords {
+  color: #bb72b0;
+}
+
+/* SQL */
+advphp.sql.keywords {
+  color: #bb72b0;
+}
+
+/* Syntax */
+advphp.operator {
+  color: #9182e3;
+}
+
+advphp.bracket {
+  color: #d3b545;
+}
+
+advphp.delimiter {
+  color: #6facf1;
+}
+
+advphp.semicolon {
+  color: #a44696;
+}
+
+/* Variables */
+advphp.identifier.variable.prefix {
+  color: #d3b545;
+}
+
+advphp.identifier.variable.name {
+  color: #d3b545;
+}
+
+advphp.identifier.variable.this {
+  color: #a44696;
+}
+
+advphp.string.variableSubstitution {
+  color: #a899fa;
+}
+
+/* Functions */
+advphp.identifier.function.keyword {
+  color: #776bbd;
+}
+
+advphp.identifier.function.name {
+  color: #c2b8ff;
+}
+
+advphp.string.block.delimiter {
+  background-color: #c2b8ff;
+}
+
+advphp.identifier.parameter.prefix {
+  color: #d3b545;
+}
+
+advphp.identifier.parameter.name {
+  color: #d3b545;
+}
+
+/* Objects */
+advphp.identifier.object.name {
+  color: #a44696;
+}
+
+/* Namespace */
+advphp.definition.namespace {
+  color: #a44696;
+}
+
+advphp.string,
+advphp.value.string,
+advphp.string.doubleQuote,
+advphp.string.singleQuote,
+advphp.string.nowdoc,
+advphp.string.heredoc {
+  color: #db9366;
+}
+
+advphp.backTic.string {
+  color: #db9366;
+  font-style: italic;
+}
+
 /* XML */
-/* xml.tag {
-color: #DA4551;
+xml.tag {
+  color: #776bbd;
 }
-xml.tag.name {
-}
+
 xml.tag.attribute.name {
-color: #FDD46B;
+  color: #d3b545;
 }
+
 xml.tag.attribute.value {
-  color: #d6f48f; 
-} */
+  color: #a44696;
+}
