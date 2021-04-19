@@ -2,8 +2,8 @@
   "identifier": "co.stuntrocket.Stuntrocket",
   "name": "Stuntrocket",
   "organization": "StuntRocket",
-  "description": "Dark theme with tropical colors",
-  "version": "1.0.3",
+  "description": "Dark theme with tropical colors.",
+  "version": "1.0.4",
   "categories": ["themes"],
   "bugs": "https://github.com/stuntrocket/novatheme/issues"
 }

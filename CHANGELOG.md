@@ -1,3 +1,7 @@
+## Version 1.0.4
+
+Vue html tag had wrong style
+
 ## Version 1.0.3
 
 Better Support for Javascript and AdvancedPHP files.
