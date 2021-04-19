@@ -85,7 +85,7 @@ meta.document.textfield.highlighted {
 
 /* Text */
 meta.text {
-  color: #a44696;
+  color: #b0409f;
 }
 
 meta.text.invisible {
@@ -158,7 +158,7 @@ invalid {
 }
 
 link {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 /* Values */
@@ -177,7 +177,7 @@ value.number {
 }
 
 value.entity {
-  color: #db9366;
+  color: #eb8c52;
   /* color: $primary_color; */
 }
 
@@ -193,7 +193,7 @@ identifier.type {
 identifier.global,
 identifier.variable {
   /* color: hsl(345, 100%, 50%); */
-  color: #db9366;
+  color: #eb8c52;
 }
 
 identifier.property,
@@ -214,7 +214,7 @@ identifier.argument {
 
 /* Strings */
 string {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 string.key {
@@ -226,15 +226,15 @@ string-template {
 }
 
 string-template.value {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 regex {
-  color: #a44696;
+  color: #b0409f;
 }
 
 regex.escaped {
-  color: #bb72b0;
+  color: #b96dc0;
 }
 
 cdata {
@@ -251,17 +251,17 @@ markup.line {
 }
 
 markup.bold {
-  color: #a44696;
+  color: #b0409f;
   font-weight: bold;
 }
 
 markup.italic {
-  color: #db9366;
+  color: #eb8c52;
   font-style: italic;
 }
 
 markup.strikethrough {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 markup.list.item {
@@ -286,14 +286,14 @@ definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
   font-weight: bold;
-  color: #bb72b0;
+  color: #b96dc0;
 }
 
 /* Members */
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-  color: #a44696;
+  color: #b0409f;
 }
 
 /* Tags */
@@ -310,7 +310,7 @@ tag.attribute.name {
 }
 
 tag.attribute.value {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 tag.attribute.value.link {
@@ -337,12 +337,12 @@ vue.html.tag.close {
 }
 
 vue.html.tag.name {
-  color: #30cfb4;
+  color: #d3b545;
   font-weight: bold;
 }
 
 vue.html.tag.attribute.shorthand-key {
-  color: #bb72b0;
+  color: #b96dc0;
 }
 
 vue.html.tag.attribute.name,
@@ -352,17 +352,17 @@ vue.html.embedded.interpolation.bracket {
 }
 
 vue.html.tag.attribute.argument {
-  color: #db9366;
+  color: #eb8c52;
   font-weight: bold;
 }
 
 vue.html.tag.attribute.modifier {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 /* Styles */
 style.at {
-  color: #db9366;
+  color: #eb8c52;
   font-weight: 900;
 }
 
@@ -391,15 +391,15 @@ style.attribute.name {
 }
 
 style.value.number {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 style.value.color.hex {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 style.value.keyword {
-  color: #bb72b0;
+  color: #b96dc0;
 }
 
 style.value.color.named {
@@ -407,7 +407,7 @@ style.value.color.named {
 }
 
 style.value.identifier.function {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 /* Terminal */
@@ -418,7 +418,7 @@ terminal.bright-black {
 
 terminal.red,
 terminal.bright-red {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 terminal.green,
@@ -438,7 +438,7 @@ terminal.bright-blue {
 
 terminal.magenta,
 terminal.bright-magenta {
-  color: #a44696;
+  color: #b0409f;
 }
 
 terminal.cyan,
@@ -483,7 +483,7 @@ javascript.keyword.extends {
 
 javascript.identifier.type.class.name,
 javascript.identifier.type.class.superclass {
-  color: #bb72b0;
+  color: #b96dc0;
   font-weight: normal;
 }
 
@@ -491,17 +491,17 @@ javascript.identifier.type.class.superclass {
 javascript.identifier.method,
 javascript.identifier.function,
 javascript.identifier.function.name {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 javascript.identifier.argument.name {
-  color: #bb72b0;
+  color: #b96dc0;
   font-style: italic;
 }
 
 javascript.identifier,
 javascript.identifier.name {
-  color: #bb72b0;
+  color: #b96dc0;
 }
 
 javascript.identifier.property {
@@ -517,7 +517,7 @@ javascript.identifier.core.global {
 }
 
 javascript.identifier.core.function {
-  color: #db9366;
+  color: #eb8c52;
   font-style: italic;
 }
 
@@ -531,18 +531,18 @@ javascript.value.boolean {
 }
 
 javascript.value.number.hex {
-  color: #a44696;
+  color: #b0409f;
 }
 
 javascript.value.number {
-  color: #a44696;
+  color: #b0409f;
 }
 
 /* Strings */
 javascript.string.backtick-quoted,
 javascript.string.double-quoted,
 javascript.string.single-quoted {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 javascript.string.regex {
@@ -560,12 +560,12 @@ javascript.separator {
 
 /* PHP */
 php.identifier.function {
-  color: #bb72b0;
+  color: #b96dc0;
   /* #FDD46B own functions: not work */
 }
 
 php.identifier.core.function {
-  color: #a44696;
+  color: #b0409f;
   /* #65C8F0 core functions */
 }
 
@@ -580,7 +580,7 @@ php.value.null {
 }
 
 php.value.boolean {
-  color: #db9366;
+  color: #eb8c52;
   font-style: italic;
 }
 
@@ -627,17 +627,17 @@ advphp.static.wordOperator {
 
 /* WP Constants */
 advphp.wp.keywords {
-  color: #bb72b0;
+  color: #b96dc0;
 }
 
 /* CURL */
 advphp.curl.keywords {
-  color: #bb72b0;
+  color: #b96dc0;
 }
 
 /* SQL */
 advphp.sql.keywords {
-  color: #bb72b0;
+  color: #b96dc0;
 }
 
 /* Syntax */
@@ -654,7 +654,7 @@ advphp.delimiter {
 }
 
 advphp.semicolon {
-  color: #a44696;
+  color: #b0409f;
 }
 
 /* Variables */
@@ -667,7 +667,7 @@ advphp.identifier.variable.name {
 }
 
 advphp.identifier.variable.this {
-  color: #a44696;
+  color: #b0409f;
 }
 
 advphp.string.variableSubstitution {
@@ -697,12 +697,12 @@ advphp.identifier.parameter.name {
 
 /* Objects */
 advphp.identifier.object.name {
-  color: #a44696;
+  color: #b0409f;
 }
 
 /* Namespace */
 advphp.definition.namespace {
-  color: #a44696;
+  color: #b0409f;
 }
 
 advphp.string,
@@ -711,11 +711,11 @@ advphp.string.doubleQuote,
 advphp.string.singleQuote,
 advphp.string.nowdoc,
 advphp.string.heredoc {
-  color: #db9366;
+  color: #eb8c52;
 }
 
 advphp.backTic.string {
-  color: #db9366;
+  color: #eb8c52;
   font-style: italic;
 }
 
@@ -729,5 +729,5 @@ xml.tag.attribute.name {
 }
 
 xml.tag.attribute.value {
-  color: #a44696;
+  color: #b0409f;
 }
